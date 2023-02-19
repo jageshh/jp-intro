@@ -1,0 +1,269 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@700&display=swap" rel="stylesheet">
+
+.App {
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0A192F;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+Header.body{
+  margin: 0;
+  padding: 0;
+}
+.men-div{
+   
+  background-color: #0A192F;
+  display:  flex;
+}
+
+.logo{
+  float: left;
+  display: flex;
+  padding-left: 60px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.my-nav{
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  float: right;
+  padding-left: 450px;
+  text-align: center;
+  justify-content: center;
+}
+.akua{
+  color: aqua;
+}
+ul li{
+  display: inline;
+  padding: 0px 20px;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover{
+  transition: 0ms;
+  color: aqua;
+  text-decoration: underline;
+}
+.btn{
+  border: 1px solid aqua;
+  color: aqua;
+  background-color: hsl(216, 65%, 11%);
+  height: 35px;
+  width: 99px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: aqua;
+  color: #0A192F;
+}
+
+/* section css */
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent-div{
+  height: 500px;
+  width: 100%;
+  background-color: #0A192F;
+  display: flex;
+}
+
+/* Left side var */
+.left-side{
+flex-basis: 150px;
+color: white;
+background-color: #0A192F;
+text-align: center;
+
+padding-top: 150px;
+height: 500px;
+width: 150px;
+position: fixed;
+  
+}
+.left-side a{
+  color: white;
+}
+.left-div{
+  color: white;
+  padding-left: 149px;
+  padding-right: 149px;
+}
+.hr{
+  transform: rotate(90deg);
+  height: 40px;
+}
+.name{
+  transform: rotate(90deg);
+}
+/* Men conteb */
+
+.men-content{
+flex-basis: 1000px;
+background-color: #0A192F;
+color: white;
+position: static;
+margin-left:0px;
+}
+.my-name{
+  padding-left: 149px;
+}
+.grow{
+  font-size: 4rem;
+}
+.dark{
+  text-shadow: #61dafb;
+}
+.btn-2{
+  
+  border: 1px solid aqua;
+  color: aqua;
+  background-color: #0A192F;
+  height: 35px;
+  width: 99px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 40px;
+margin-bottom: 40px;
+}
+.btn-2:hover{
+  background-color: aqua;
+  color: #0A192F;
+}
+
+.para-2{
+  line-height: 20px;
+  word-spacing: 5px;
+}
+/* right side bar */
+.right-side{
+  flex-basis: 150px;
+  background-color: #0A192F;
+  color:  white;
+  text-align: center;
+  margin-left: 1145px;
+height: 500px;
+padding-top: 150px;
+float: right;
+position: fixed;
+
+ 
+}
+
+.about-para{
+  color: white;
+}
+
+.ex-div{
+  color: white;
+  padding-left: 149px;
+  padding-right: 149px;
+}
+.aqa{
+  color: aqua;
+  height: 20px;
+}
+.contact-div{
+  color: white;
+  padding-left: 149px;
+  padding-right: 149px;
+}
+
+.work-div{
+  color: white;
+  padding-left: 149px;
+  padding-right: 149px;
+}
+.img-style{
+  border-radius: 50%;
+}
+/* About css */
+.about-parent-div{
+  display: flex;
+}
+.left-div{
+  float: left;
+  
+}
+.right-div{
+  float: right;
+  margin-top: 300px;
+  padding-left: 200px;
+  
+}
+.parent-about-content{
+  display: flex;
+}
+.first-child{
+  flex-basis: 20%;
+}
+.second-child{
+  flex-basis: 20%;
+}
+.third-child{
+  flex-basis: 20%;
+}
+.fourth-child{
+  flex-basis: 20%;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.effect{
+  height: 209px;
+  width: 209px;
+  border: 2px solid white;
+}
+.effect:hover{
+  background-color: rgba(73, 115, 115, 0.6);
+}
+.fourth-child:hover{
+  transform: scalex(0.4);
+}
